@@ -1,0 +1,133 @@
+body{
+	background-color: silver;
+	color: black;
+	margin: 0;
+}
+.card h1{
+	color: blue;
+	font-family: cursive;
+	}
+	.card h2{
+	color: blue;
+	font-family: cursive;
+	}
+	.card h3{
+	color: blue;
+	font-family: cursive;
+	}
+.navbar navbar-expand-lg navbar navbar-dark bg-dark{
+	position: fixed;
+	top=0;
+	width: 100%;
+	 color: white;
+}
+.first{
+	position: absolute;
+	font-family: cursive;
+	color: blue;
+	top: 600px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.btn btn-primary btn-lg{
+	position: absolute;
+	top: 700px;
+}
+.para1{
+	position: absolute;
+	top: 800px;
+	font-family: cursive;
+	height: 20px;
+	color: blue;
+	display: inline;
+	padding-left: 100px;
+	padding-right: 500px;
+
+}
+.image1{
+	position: absolute;
+	top: 800px;
+	right: 30px;
+	width: 400px;
+	height: 300px;
+	}
+.para2{
+	position: absolute;
+	top: 1200px;
+	font-family: cursive;
+	height: 20px;
+	color: blue;
+	display: inline;
+	padding-right: 100px;
+	padding-left: 500px;
+
+}
+.image2{
+	position: absolute;
+	top: 1200px;
+	left: 30px;
+	width: 400px;
+	height: 300px;
+	}
+	footer {
+  position:absolute;
+  bottom:-1200px;
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  background-color: black;
+  padding-top: 30px;
+}
+
+#flashcards {
+	text-align: center;
+	/*background-color: pink;*/
+	/*size: 0px;*/
+	font-weight: bold;
+}
+
+/*#flashcards img {
+	padding: 10px;
+	padding-bottom: 30px;
+}*/
+
+.card-name {
+	box-shadow: 10px;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+
+/*.card-name a:hover {
+	box-shadow: 10px 10px 10px 10px #888888:
+}*/
+
+#flashcards div{
+	padding: 30px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+#flashcards h6 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.footer-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-child > button {
+  padding: 11px 0px;
+  padding-right: 130px;
+  border: none;
+  border-bottom: 1px solid rgb(41, 41, 41);
+  background-color: transparent;
+  color: silver;
+  font-size: 18px;
+}
+
+.footer-child h3 {
+  font-size: 15px;
+  color: silver;
+  margin-top: 20px;
+  font-weight: 500;
+}
